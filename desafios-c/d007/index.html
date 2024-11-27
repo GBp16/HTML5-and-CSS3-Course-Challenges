@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/moon.png" type="image/x-icon">
+    <title>
+        Imagem Flexível
+    </title>
+</head>
+<body>
+    <h1>
+        Imagem Flexível
+    </h1>
+    <p>
+        Você está vendo a imagem completa? Experimente ampliar o tamanho
+        da sua janela para aproveitar a melhor experiência. &#x1F92F
+    </p>
+    <picture>
+        <source media="(max-width: 650px)" srcset="imagens/foto-p.jpeg" 
+        type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.jpeg" 
+        type="image/jpeg">
+        <img src="imagens/foto-g.jpeg" alt="Imagem-castelo-animado">
+    </picture>
+</body>
+</html>
